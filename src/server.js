@@ -53,7 +53,7 @@ app.get('/api/events/:name', async (req, res) => {
         const commentIds = event.commentIds || [];
         res.send(event);
     } else {
-        res.status(404).send('Event Not Found')
+        // res.status(404).send('Event Not Found')
     }
 });
 
